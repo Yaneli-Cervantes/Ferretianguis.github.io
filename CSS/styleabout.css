@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+}
+
+body {
+  min-height: 1000px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  z-index: 1000;
+  transition: 0.6s;
+  background: #001d44;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  justify-content: center;
+  font-size: medium;
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background: rgb(239, 215, 0);
+  border-bottom: 1 px solid rgb(0, 0, 0);
+}
+
+.sec2 p span {
+  color: #ffcc00;
+}
+
+.imagen1 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 2px;
+  right: 50px;
+}
+
+.imagen2 {
+  width: 150px;
+  height: 140px;
+  position: relative;
+  top: 1px;
+  left: 500px;
+}
+
+.img1 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  padding: auto;
+  left: 800px;
+  top: 100px;
+}
+
+.img2 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  padding: 50px;
+  right: 700px;
+  top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    20,
+    44,
+    129,
+    0.747
+  ); /* Cambia el color y la opacidad */
+}
+
+.sec {
+  width: auto;
+  margin: 0;
+  height: 125vh;
+  background-image: url("../image/2.png"); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.content {
+  top: 150px;
+  position: relative;
+  padding: 50px;
+  max-width: 600px;
+}
+.content2 {
+  position: relative;
+  padding: 50px;
+  max-width: 600px;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: gold;
+  font-family: "Lucida Sans", Verdana;
+  max-width: 600px;
+  top: 1px;
+}
+
+h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Franklin Gothic Medium", arial;
+  font-weight: 400;
+  top: 10px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 28.05px;
+  max-width: 900px;
+  right: 700;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Geneva;
+}
+
+.info {
+  display: none;
+  margin-top: 100px;
+}
+
+.boton {
+  position: relative;
+  top: 20px;
+  background-color: gold;
+  color: white;
+  border: none;
+  padding: 15px 15 px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: backgroud-color 0.4s;
+  width: 200px;
+  height: 30px;
+}
+
+.boton:hover {
+  background-color: #1184e2;
+  color: #080808;
+}
+
+.sec2 {
+  width: auto;
+  margin: 0;
+  height: 130vh;
+  background-color: #001d44;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.historia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.sec3 {
+  width: auto;
+  margin: 0;
+  height: 80vh;
+  background-color: #eff3f8;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.now {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.content3 {
+  position: relative;
+  padding: 50px;
+  max-width: 600px;
+  justify-content: left;
+  left: 700px;
+  
+}
+.sec3 h3{
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: black;
+  font-family: "Franklin Gothic Medium", arial;
+  font-weight: 400;
+  top: 10px;
+}
+.sec3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0,0,0);
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 28.05px;
+  max-width: 600px;
+  right: 700;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Geneva;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .productos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .producto {
+            flex: 1 1 calc(30% - 20px); /* Ajusta el ancho según el tamaño de pantalla */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .producto {
+                flex: 1 1 calc(45% - 20px); /* Dos productos en pantallas medianas */
+            }
+        }
+        @media (max-width: 480px) {
+            .producto {
+                flex: 1 1 100%; /* Un solo producto en pantallas pequeñas */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tienda de Productos</h1>
+
+<div class="productos-container">
+    <div class="producto">
+        <h3>Teléfono Móvil</h3>
+        <p>Descripción del teléfono móvil.</p>
+        <p>Precio: $299.99</p>
+    </div>
+    <div class="producto">
+        <h3>Portátil</h3>
+        <p>Descripción del portátil.</p>
+        <p>Precio: $899.99</p>
+    </div>
+    <div class="producto">
+        <h3>Camiseta</h3>
+        <p>Descripción de la camiseta.</p>
+        <p>Precio: $19.99</p>
+    </div>
+    <div class="producto">
+        <h3>Pantalones</h3>
+        <p>Descripción de los pantalones.</p>
+        <p>Precio: $39.99</p>
+    </div>
+    <div class="producto">
+        <h3>Lámpara</h3>
+        <p>Descripción de la lámpara.</p>
+        <p>Precio: $49.99</p>
+    </div>
+    <div class="producto">
+        <h3>Juego de Cuchillos</h3>
+        <p>Descripción del juego de cuchillos.</p>
+        <p>Precio: $29.99</p>
+    </div>
+</div>
+
+</body>
+</html>

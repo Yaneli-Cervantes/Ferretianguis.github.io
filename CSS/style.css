@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+}
+
+body {
+  min-height: 1000px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  z-index: 1000;
+  transition: 0.6s;
+  background: #001d44;
+}
+header.sticky {
+  padding: 5px 100px;
+  background: rgb(239, 215, 0);
+  border-bottom: 1 px solid rgb(0, 0, 0);
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  justify-content: center;
+  font-size: medium;
+}
+
+.imagen1 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 2px;
+  right: 50px;
+}
+
+.imagen2 {
+  width: 150px;
+  height: 140px;
+  position: relative;
+  top: 1px;
+  left: 490px;
+}
+
+.sec {
+  top: 135px;
+  width:auto;
+  margin: 0;
+  height: 130vh;
+  background-color: #0973ec; 
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+.sec h1{
+  font-size: 25px;
+  top: 20px;
+  position: relative;
+  padding: 20px;
+  color:#fff;
+}
+.productos-container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.producto {
+  flex: 1 1 calc(19% - 50px); /* Ajusta el ancho según el tamaño de pantalla */
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.producto:hover {
+  transform: scale(1.05);
+  background-color: #efd808;
+}
+
+.imagenicon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.sec h3{
+  justify-items: center;
+  text-align: center;
+}
