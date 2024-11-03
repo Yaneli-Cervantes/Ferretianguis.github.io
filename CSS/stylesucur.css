@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', sans-serif;
+}
+
+body {
+  min-height: 1000px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  z-index: 1000;
+  transition: 0.6s;
+  background: #001d44;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  justify-content: center;
+  font-size: medium;
+}
+header.sticky {
+  padding: 5px 100px;
+  background: #000;
+  border-bottom: 1 px solid rgb(0, 0, 0);
+}
+
+.imagen1 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  padding: 10px;
+}
+
+.imagen2 {
+  width: 130x;
+  height: 130px;
+  position: relative;
+  top: 1px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 44, 129, 0.747); /* Cambia el color y la opacidad */
+}
+
+.sec {
+  top: 150px;
+  width:auto;
+  margin: 0;
+  height: 130vh;
+  background-image:url('../image/image1.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.acayucan {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.img1{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 10px;
+}
+
+.content {
+  position: relative;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-color: #efd808;
+  opacity: 0.8;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.content2{
+  position: relative;
+  text-align: left;
+  padding: 20px;
+}
+
+.content3{
+  position: relative;
+  text-align: right;
+  padding: 20px;
+}
+
+h3{
+  color: #fff;
+}
+h5{
+  color: rgb(239, 215, 0);
+  font-size: 35px;
+}
+
+.sec1 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 130vh;
+  background-image:url('../image/image2.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.mina {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec2 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 130vh;
+  background-image:url('../image/image3.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.coatza {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec3 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 70vh;
+  background-image:url('../image/image4.jpeg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.cd {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec4 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 70vh;
+  background-image:url('../image/image5.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.san {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec5 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 130vh;
+  background-image:url('../image/image6.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.tuxt {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec6 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 130vh;
+  background-image:url('../image/image7.jpeg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.carde {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec7 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 70vh;
+  background-image:url('../image/image8.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.comal {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec8 {
+  top: 150px;
+  width: auto;
+  margin: 0;
+  height: 70vh;
+  background-image:url('../image/image9.jpg'); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen */
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.parais {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 992px){
+  .toggle{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+  }
+
+  .toggle::before{
+    content:'';
+    position: absolute;
+    top:4px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 10px 0 #fff;
+    transition: 0.5s;
+  }
+
+  .toggle:after{
+    content:'';
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+
+  header,
+  header.sticky{
+    padding: 5px 50px;
+    background: #001d44;;
+  }
+
+  header ul{
+    position: absolute;
+    top:140px;
+    right:0;
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+    overflow: auto;
+    visibility: hidden;
+    background: #001d44;;
+    opacity: 0;
+  }
+
+  header.active ul{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    padding-top: 20px;
+  }
+  header.active ul li a{
+    display: inline-block;
+    margin:20px 0;
+    font-size: 25px;
+  }
+  ul li a:hover{
+    transform: scale(1.05);
+  color: #efd808;
+  }
+
+  .imagen1{
+    position:relative;
+  }
+  .imagen2{
+    position:relative;
+
+  }
+}
